@@ -1,0 +1,417 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "VLC Media Player",
+    "description": "Open‑source media player supporting nearly all formats.",
+    "tags": ["media", "video", "audio"],
+    "category": "Open‑Source",
+    "url": "https://www.videolan.org/vlc/",
+    "download": "https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/vlc.png",
+    "popular": 10
+  },
+  {
+    "name": "qBittorrent",
+    "description": "Open‑source torrent client with no ads.",
+    "tags": ["torrent", "download"],
+    "category": "Open‑Source",
+    "url": "https://www.qbittorrent.org/",
+    "download": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-4.6.3/qbittorrent_4.6.3_x64_setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/qbittorrent.png",
+    "popular": 10
+  },
+  {
+    "name": "PeaZip",
+    "description": "Open‑source archive manager supporting 200+ formats.",
+    "tags": ["archive", "compression"],
+    "category": "Open‑Source",
+    "url": "https://peazip.github.io/",
+    "download": "https://github.com/peazip/PeaZip/releases/latest/download/peazip-9.8.0.WIN64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/peazip.png",
+    "popular": 8
+  },
+  {
+    "name": "SumatraPDF",
+    "description": "Lightweight PDF, EPUB, and comic reader.",
+    "tags": ["pdf", "reader"],
+    "category": "Open‑Source",
+    "url": "https://www.sumatrapdfreader.org/",
+    "download": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.5.2-64-install.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/sumatra.png",
+    "popular": 9
+  },
+  {
+    "name": "LibreOffice",
+    "description": "Full open‑source office suite.",
+    "tags": ["office", "documents"],
+    "category": "Open‑Source",
+    "url": "https://www.libreoffice.org/",
+    "download": "https://download.documentfoundation.org/libreoffice/stable/24.2.2/win/x86_64/LibreOffice_24.2.2_Win_x86-64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/libreoffice.png",
+    "popular": 10
+  },
+  {
+    "name": "OnlyOffice Desktop",
+    "description": "Open‑source office suite with MS Office compatibility.",
+    "tags": ["office", "documents"],
+    "category": "Open‑Source",
+    "url": "https://www.onlyoffice.com/",
+    "download": "https://download.onlyoffice.com/install/desktop/editors/windows/onlyoffice-desktopeditors.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/onlyoffice.png",
+    "popular": 8
+  },
+  {
+    "name": "Zotero",
+    "description": "Open‑source research and citation manager.",
+    "tags": ["research", "citations"],
+    "category": "Open‑Source",
+    "url": "https://www.zotero.org/",
+    "download": "https://www.zotero.org/download/client/dl?platform=win&channel=release",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/zotero.png",
+    "popular": 8
+  },
+  {
+    "name": "Joplin",
+    "description": "Open‑source note‑taking and markdown app.",
+    "tags": ["notes", "markdown"],
+    "category": "Open‑Source",
+    "url": "https://joplinapp.org/",
+    "download": "https://github.com/laurent22/joplin/releases/latest/download/Joplin-Setup-3.0.2.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/joplin.png",
+    "popular": 9
+  },
+  {
+    "name": "Obsidian",
+    "description": "Markdown knowledge base with graph view.",
+    "tags": ["notes", "markdown"],
+    "category": "Open‑Source",
+    "url": "https://obsidian.md/",
+    "download": "https://github.com/obsidianmd/obsidian-releases/releases/latest/download/Obsidian.1.5.3.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/obsidian.png",
+    "popular": 10
+  },
+  {
+    "name": "Notepad++",
+    "description": "Lightweight text editor with plugin support.",
+       "tags": ["text", "editor"],
+    "category": "Open‑Source",
+    "url": "https://notepad-plus-plus.org/",
+    "download": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest/download/npp.8.6.4.Installer.x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/notepadpp.png",
+    "popular": 10
+  },
+  {
+    "name": "Geany",
+    "description": "Lightweight IDE supporting many languages.",
+    "tags": ["editor", "ide"],
+    "category": "Open‑Source",
+    "url": "https://www.geany.org/",
+    "download": "https://download.geany.org/geany-2.0_setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/geany.png",
+    "popular": 7
+  },
+  {
+    "name": "Kate",
+    "description": "Advanced KDE text editor.",
+    "tags": ["editor", "text"],
+    "category": "Open‑Source",
+    "url": "https://kate-editor.org/",
+    "download": "https://binary-factory.kde.org/job/Kate_Release_win64/lastSuccessfulBuild/artifact/kate-24.02.0-64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/kate.png",
+    "popular": 7
+  },
+  {
+    "name": "KeePassXC",
+    "description": "Community‑driven KeePass fork with modern UI.",
+    "tags": ["passwords", "security"],
+    "category": "Open‑Source",
+    "url": "https://keepassxc.org/",
+    "download": "https://github.com/keepassxreboot/keepassxc/releases/latest/download/KeePassXC-Win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/keepassxc.png",
+    "popular": 9
+  },
+  {
+    "name": "Bitwarden",
+    "description": "Open‑source cloud password manager.",
+    "tags": ["passwords", "security"],
+    "category": "Open‑Source",
+    "url": "https://bitwarden.com/",
+    "download": "https://vault.bitwarden.com/download/?app=desktop&platform=windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/bitwarden.png",
+    "popular": 10
+  },
+  {
+    "name": "VeraCrypt",
+    "description": "Disk encryption software and successor to TrueCrypt.",
+    "tags": ["encryption", "security"],
+    "category": "Open‑Source",
+    "url": "https://www.veracrypt.fr/",
+    "download": "https://launchpad.net/veracrypt/trunk/1.26.7/+download/VeraCrypt%20Setup%201.26.7.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/veracrypt.png",
+    "popular": 10
+  },
+  {
+    "name": "OpenShot",
+    "description": "Beginner‑friendly open‑source video editor.",
+    "tags": ["video", "editing"],
+    "category": "Open‑Source",
+    "url": "https://www.openshot.org/",
+    "download": "https://github.com/OpenShot/openshot-qt/releases/latest/download/OpenShot-v3.1.1-x86_64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openshot.png",
+    "popular": 7
+  },
+  {
+    "name": "Kdenlive",
+    "description": "Professional open‑source video editor.",
+    "tags": ["video", "editing"],
+    "category": "Open‑Source",
+    "url": "https://kdenlive.org/",
+    "download": "https://download.kde.org/stable/kdenlive/24.02/windows/kdenlive-24.02.0.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/kdenlive.png",
+    "popular": 8
+  },
+  {
+    "name": "Avidemux",
+    "description": "Simple video cutting and encoding tool.",
+    "tags": ["video", "editing"],
+    "category": "Open‑Source",
+    "url": "https://avidemux.sourceforge.io/",
+    "download": "https://www.fosshub.com/Avidemux.html?dwl=avidemux_2.8.1_win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/avidemux.png",
+    "popular": 7
+  },
+  {
+    "name": "Audacity",
+    "description": "Open‑source audio recording and editing.",
+    "tags": ["audio", "editing"],
+    "category": "Open‑Source",
+    "url": "https://www.audacityteam.org/",
+    "download": "https://github.com/audacity/audacity/releases/latest/download/audacity-win-3.4.2-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/audacity.png",
+    "popular": 9
+  },
+  {
+    "name": "Ardour",
+    "description": "Professional open‑source DAW.",
+    "tags": ["audio", "daw"],
+    "category": "Open‑Source",
+    "url": "https://ardour.org/",
+    "download": "https://community.ardour.org/download",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ardour.png",
+    "popular": 7
+  },
+  {
+    "name": "Hydrogen",
+    "description": "Open‑source drum machine.",
+    "tags": ["audio", "drums"],
+    "category": "Open‑Source",
+    "url": "http://hydrogen-music.org/",
+    "download": "https://github.com/hydrogen-music/hydrogen/releases/latest/download/Hydrogen-1.2.3-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/hydrogen.png",
+    "popular": 6
+  },
+  {
+    "name": "MuseScore",
+    "description": "Music notation and composition software.",
+    "tags": ["music", "notation"],
+    "category": "Open‑Source",
+    "url": "https://musescore.org/",
+    "download": "https://cdn.jsdelivr.net/musescore/v4.3.2/MuseScore-4.3.2.241231751-x86_64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/musescore.png",
+    "popular": 8
+  },
+  {
+    "name": "OpenTTD",
+    "description": "Open‑source remake of Transport Tycoon Deluxe.",
+    "tags": ["game", "simulation"],
+    "category": "Open‑Source",
+    "url": "https://www.openttd.org/",
+    "download": "https://cdn.openttd.org/openttd-releases/14.1/openttd-14.1-windows-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openttd.png",
+    "popular": 8
+  },
+  {
+    "name": "0 A.D.",
+    "description": "Open‑source historical RTS game.",
+    "tags": ["game", "strategy"],
+    "category": "Open‑Source",
+    "url": "https://play0ad.com/",
+    "download": "https://releases.wildfiregames.com/0ad-0.0.26-alpha-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/0ad.png",
+    "popular": 7
+  },
+  {
+    "name": "SuperTuxKart",
+    "description": "Open‑source kart racing game.",
+    "tags": ["game", "racing"],
+    "category": "Open‑Source",
+    "url": "https://supertuxkart.net/",
+    "download": "https://github.com/supertuxkart/stk-code/releases/latest/download/supertuxkart-1.5-windows-installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/supertuxkart.png",
+    "popular": 7
+  },
+  {
+    "name": "Godot Engine",
+    "description": "Open‑source 2D and 3D game engine.",
+    "tags": ["game", "engine"],
+    "category": "Open‑Source",
+    "url": "https://godotengine.org/",
+    "download": "https://github.com/godotengine/godot/releases/latest/download/Godot_v4.2.1-stable_win64.exe.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/godot.png",
+    "popular": 10
+  },
+  {
+    "name": "DOSBox",
+    "description": "x86 emulator for running DOS games.",
+    "tags": ["emulator", "dos"],
+    "category": "Open‑Source",
+    "url": "https://www.dosbox.com/",
+    "download": "https://sourceforge.net/projects/dosbox/files/latest/download",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/dosbox.png",
+    "popular": 7
+  },
+  {
+    "name": "ScummVM",
+    "description": "Engine for classic point‑and‑click adventure games.",
+    "tags": ["emulator", "games"],
+    "category": "Open‑Source",
+    "url": "https://www.scummvm.org/",
+    "download": "https://downloads.scummvm.org/frs/scummvm/2.8.0/scummvm-2.8.0-win32-x86_64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/scummvm.png",
+    "popular": 8
+  },
+  {
+    "name": "qView",
+    "description": "Minimalist image viewer.",
+    "tags": ["image", "viewer"],
+    "category": "Open‑Source",
+    "url": "https://interversehq.com/qview/",
+    "download": "https://github.com/jurplel/qView/releases/latest/download/qView-6.1-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/qview.png",
+    "popular": 7
+  },
+  {
+    "name": "Flameshot",
+    "description": "Powerful screenshot tool with annotation.",
+    "tags": ["screenshot", "utility"],
+    "category": "Open‑Source",
+    "url": "https://flameshot.org/",
+    "download": "https://github.com/flameshot-org/flameshot/releases/latest/download/Flameshot-Portable.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/flameshot.png",
+    "popular": 8
+  },
+  {
+    "name": "Syncthing GTK",
+    "description": "Graphical interface for Syncthing file sync.",
+    "tags": ["sync", "cloud"],
+    "category": "Open‑Source",
+    "url": "https://github.com/syncthing/syncthing-gtk",
+    "download": "https://github.com/syncthing/syncthing-gtk/releases/latest/download/syncthing-gtk-win64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/syncthinggtk.png",
+    "popular": 7
+  },
+  {
+    "name": "FreeFileSync",
+    "description": "Folder comparison and synchronization tool.",
+    "tags": ["sync", "backup"],
+    "category": "Open‑Source",
+    "url": "https://freefilesync.org/",
+    "download": "https://freefilesync.org/download/FreeFileSync_13.1_Windows_Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/freefilesync.png",
+    "popular": 9
+  },
+  {
+    "name": "Rclone",
+    "description": "Command‑line cloud storage sync tool.",
+    "tags": ["cloud", "sync"],
+    "category": "Open‑Source",
+    "url": "https://rclone.org/",
+    "download": "https://downloads.rclone.org/rclone-current-windows-amd64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rclone.png",
+    "popular": 8
+  },
+  {
+    "name": "FileZilla Server",
+    "description": "Open‑source FTP and SFTP server.",
+    "tags": ["ftp", "server"],
+    "category": "Open‑Source",
+    "url": "https://filezilla-project.org/download.php?type=server",
+    "download": "https://download.filezilla-project.org/server/FileZilla_Server_1.8.1_win64-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/filezillaserver.png",
+    "popular": 8
+  },
+  {
+    "name": "OpenSSH for Windows",
+    "description": "Official Microsoft‑maintained OpenSSH port.",
+    "tags": ["ssh", "terminal"],
+    "category": "Open‑Source",
+    "url": "https://github.com/PowerShell/Win32-OpenSSH",
+    "download": "https://github.com/PowerShell/Win32-OpenSSH/releases/latest/download/OpenSSH-Win64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openssh.png",
+    "popular": 9
+  },
+  {
+    "name": "OpenSSL",
+    "description": "Toolkit for TLS/SSL encryption and certificates.",
+    "tags": ["security", "encryption"],
+    "category": "Open‑Source",
+    "url": "https://www.openssl.org/",
+    "download": "https://slproweb.com/download/Win64OpenSSL-3_2_1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openssl.png",
+    "popular": 8
+  },
+  {
+    "name": "GnuPG",
+    "description": "Open‑source encryption and signing tool.",
+    "tags": ["security", "encryption"],
+    "category": "Open‑Source",
+    "url": "https://gnupg.org/",
+    "download": "https://www.gpg4win.org/download.html",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/gnupg.png",
+    "popular": 8
+  },
+  {
+    "name": "qBrew",
+    "description": "Open‑source beer recipe calculator.",
+    "tags": ["fun", "utility"],
+    "category": "Open‑Source",
+    "url": "https://www.usermode.org/code.html",
+    "download": "https://www.usermode.org/code/qbrew/qbrew-0.4.1-win32.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/qbrew.png",
+    "popular": 5
+  },
+  {
+    "name": "OpenRA",
+    "description": "Open‑source remake of classic Command & Conquer games.",
+    "tags": ["game", "strategy"],
+    "category": "Open‑Source",
+    "url": "https://www.openra.net/",
+    "download": "https://github.com/OpenRA/OpenRA/releases/latest/download/OpenRA-release-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openra.png",
+    "popular": 8
+  },
+  {
+    "name": "FreeCAD",
+    "description": "Parametric 3D CAD modeler.",
+    "tags": ["3d", "cad"],
+    "category": "Open‑Source",
+    "url": "https://www.freecad.org/",
+    "download": "https://github.com/FreeCAD/FreeCAD/releases/latest/download/FreeCAD-0.21.2-WIN-x64-installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/freecad.png",
+    "popular": 8
+  },
+  {
+    "name": "OpenSCAD",
+    "description": "Script‑based 3D CAD modeling tool.",
+    "tags": ["3d", "cad"],
+    "category": "Open‑Source",
+    "url": "https://openscad.org/",
+    "download": "https://files.openscad.org/OpenSCAD-2021.01-x86_64-Installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openscad.png",
+    "popular": 7
+  }
+]
+
+}

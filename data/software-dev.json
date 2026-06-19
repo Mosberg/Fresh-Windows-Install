@@ -1,0 +1,330 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Visual Studio Code",
+    "description": "Extensible code editor with thousands of extensions.",
+    "tags": ["dev", "editor", "code"],
+    "category": "Developer Tools",
+    "url": "https://code.visualstudio.com/",
+    "download": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/vscode.png",
+    "popular": 10
+  },
+  {
+    "name": "Visual Studio Community",
+    "description": "Full-featured IDE for .NET, C#, C++, and more.",
+    "tags": ["dev", "ide", "csharp", "cpp"],
+    "category": "Developer Tools",
+    "url": "https://visualstudio.microsoft.com/vs/community/",
+    "download": "https://aka.ms/vs/17/release/vs_community.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/visualstudio.png",
+    "popular": 9
+  },
+  {
+    "name": "JetBrains Toolbox",
+    "description": "Launcher for all JetBrains IDEs.",
+    "tags": ["dev", "ide", "jetbrains"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/toolbox-app/",
+    "download": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.3.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/jetbrains.png",
+    "popular": 10
+  },
+  {
+    "name": "IntelliJ IDEA Community",
+    "description": "Java and Kotlin IDE from JetBrains.",
+    "tags": ["dev", "ide", "java", "kotlin"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/idea/",
+    "download": "https://download.jetbrains.com/idea/ideaIC-2024.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/intellij.png",
+    "popular": 9
+  },
+  {
+    "name": "PyCharm Community",
+    "description": "Python IDE from JetBrains.",
+    "tags": ["dev", "python", "ide"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/pycharm/",
+    "download": "https://download.jetbrains.com/python/pycharm-community-2024.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/pycharm.png",
+    "popular": 9
+  },
+  {
+    "name": "WebStorm",
+    "description": "JavaScript IDE for frontend and backend development.",
+    "tags": ["dev", "javascript", "ide"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/webstorm/",
+    "download": "https://download.jetbrains.com/webstorm/WebStorm-2024.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/webstorm.png",
+    "popular": 8
+  },
+  {
+    "name": "CLion",
+    "description": "C/C++ IDE with CMake support.",
+    "tags": ["dev", "cpp", "ide"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/clion/",
+    "download": "https://download.jetbrains.com/cpp/CLion-2024.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/clion.png",
+    "popular": 8
+  },
+  {
+    "name": "Rider",
+    "description": "Cross-platform .NET IDE.",
+    "tags": ["dev", "dotnet", "ide"],
+    "category": "Developer Tools",
+    "url": "https://www.jetbrains.com/rider/",
+    "download": "https://download.jetbrains.com/rider/JetBrains.Rider-2024.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rider.png",
+    "popular": 8
+  },
+  {
+    "name": "Android Studio",
+    "description": "Official IDE for Android development.",
+    "tags": ["dev", "android", "java", "kotlin"],
+    "category": "Developer Tools",
+    "url": "https://developer.android.com/studio",
+    "download": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.1/android-studio-2024.1.1.1-windows.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/androidstudio.png",
+    "popular": 9
+  },
+  {
+    "name": "Eclipse IDE",
+    "description": "Java IDE with plugin ecosystem.",
+    "tags": ["dev", "java", "ide"],
+    "category": "Developer Tools",
+    "url": "https://www.eclipse.org/",
+    "download": "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2024-03/R/eclipse-java-2024-03-R-win32-x86_64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/eclipse.png",
+    "popular": 7
+  },
+  {
+    "name": "NetBeans",
+    "description": "Open-source IDE for Java, PHP, and HTML5.",
+    "tags": ["dev", "java", "php", "ide"],
+    "category": "Developer Tools",
+    "url": "https://netbeans.apache.org/",
+    "download": "https://downloads.apache.org/netbeans/netbeans-installers/24/Apache-NetBeans-24-bin-windows-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/netbeans.png",
+    "popular": 7
+  },
+
+  {
+    "name": "Git",
+    "description": "Version control system.",
+    "tags": ["dev", "git"],
+    "category": "Developer Tools",
+    "url": "https://git-scm.com/",
+    "download": "https://github.com/git-for-windows/git/releases/latest/download/Git-2.45.0-64-bit.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/git.png",
+    "popular": 10
+  },
+  {
+    "name": "GitHub Desktop",
+    "description": "Git client with GitHub integration.",
+    "tags": ["dev", "git", "github"],
+    "category": "Developer Tools",
+    "url": "https://desktop.github.com/",
+    "download": "https://central.github.com/deployments/desktop/desktop/latest/win32",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/githubdesktop.png",
+    "popular": 9
+  },
+  {
+    "name": "GitKraken",
+    "description": "Cross-platform Git GUI client.",
+    "tags": ["dev", "git"],
+    "category": "Developer Tools",
+    "url": "https://www.gitkraken.com/",
+    "download": "https://release.axocdn.com/win64/GitKrakenSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/gitkraken.png",
+    "popular": 8
+  },
+  {
+    "name": "SourceTree",
+    "description": "Git and Mercurial client by Atlassian.",
+    "tags": ["dev", "git"],
+    "category": "Developer Tools",
+    "url": "https://www.sourcetreeapp.com/",
+    "download": "https://product-downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup-3.4.14.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/sourcetree.png",
+    "popular": 7
+  },
+
+  {
+    "name": "Node.js",
+    "description": "JavaScript runtime with npm.",
+    "tags": ["dev", "javascript", "node"],
+    "category": "Developer Tools",
+    "url": "https://nodejs.org/",
+    "download": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/node.png",
+    "popular": 10
+  },
+  {
+    "name": "Python",
+    "description": "Popular programming language for scripting and automation.",
+    "tags": ["dev", "python"],
+    "category": "Developer Tools",
+    "url": "https://www.python.org/",
+    "download": "https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/python.png",
+    "popular": 10
+  },
+  {
+    "name": "Java JDK",
+    "description": "Java Development Kit.",
+    "tags": ["dev", "java"],
+    "category": "Developer Tools",
+    "url": "https://adoptium.net/",
+    "download": "https://github.com/adoptium/temurin17-binaries/releases/latest/download/OpenJDK17U-jdk_x64_windows_hotspot.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/java.png",
+    "popular": 9
+  },
+  {
+    "name": "Go",
+    "description": "Go programming language.",
+    "tags": ["dev", "go"],
+    "category": "Developer Tools",
+    "url": "https://go.dev/",
+    "download": "https://go.dev/dl/go1.22.2.windows-amd64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/go.png",
+    "popular": 8
+  },
+  {
+    "name": "Rust",
+    "description": "Systems programming language.",
+    "tags": ["dev", "rust"],
+    "category": "Developer Tools",
+    "url": "https://www.rust-lang.org/",
+    "download": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rust.png",
+    "popular": 9
+  },
+  {
+    "name": "PHP",
+    "description": "Popular scripting language for web development.",
+    "tags": ["dev", "php"],
+    "category": "Developer Tools",
+    "url": "https://www.php.net/",
+    "download": "https://windows.php.net/downloads/releases/php-8.3.6-Win32-vs16-x64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/php.png",
+    "popular": 7
+  },
+  {
+    "name": "Ruby",
+    "description": "Dynamic programming language.",
+    "tags": ["dev", "ruby"],
+    "category": "Developer Tools",
+    "url": "https://www.ruby-lang.org/",
+    "download": "https://github.com/oneclick/rubyinstaller2/releases/latest/download/rubyinstaller-3.3.0-1-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ruby.png",
+    "popular": 7
+  },
+
+  {
+    "name": "Docker Desktop",
+    "description": "Container development environment.",
+    "tags": ["dev", "docker", "containers"],
+    "category": "DevOps",
+    "url": "https://www.docker.com/products/docker-desktop/",
+    "download": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/docker.png",
+    "popular": 10
+  },
+  {
+    "name": "Kubernetes CLI (kubectl)",
+    "description": "Command-line tool for Kubernetes clusters.",
+    "tags": ["devops", "kubernetes"],
+    "category": "DevOps",
+    "url": "https://kubernetes.io/docs/tasks/tools/",
+    "download": "https://dl.k8s.io/release/v1.30.0/bin/windows/amd64/kubectl.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/kubernetes.png",
+    "popular": 8
+  },
+  {
+    "name": "Postman",
+    "description": "API testing and development platform.",
+    "tags": ["api", "testing"],
+    "category": "Developer Tools",
+    "url": "https://www.postman.com/",
+    "download": "https://dl.pstmn.io/download/latest/win64",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/postman.png",
+    "popular": 10
+  },
+  {
+    "name": "Insomnia",
+    "description": "REST and GraphQL API client.",
+    "tags": ["api", "testing"],
+    "category": "Developer Tools",
+    "url": "https://insomnia.rest/",
+    "download": "https://github.com/Kong/insomnia/releases/latest/download/Insomnia.Core-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/insomnia.png",
+    "popular": 8
+  },
+
+  {
+    "name": "MySQL",
+    "description": "Popular open-source relational database.",
+    "tags": ["database", "sql"],
+    "category": "Databases",
+    "url": "https://www.mysql.com/",
+    "download": "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.36.0.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mysql.png",
+    "popular": 10
+  },
+  {
+    "name": "MariaDB",
+    "description": "Community-developed fork of MySQL.",
+    "tags": ["database", "sql"],
+    "category": "Databases",
+    "url": "https://mariadb.org/",
+    "download": "https://downloads.mariadb.org/interstitial/mariadb-11.3.2/winx64-packages/mariadb-11.3.2-winx64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mariadb.png",
+    "popular": 8
+  },
+  {
+    "name": "PostgreSQL",
+    "description": "Advanced open-source relational database.",
+    "tags": ["database", "sql"],
+    "category": "Databases",
+    "url": "https://www.postgresql.org/",
+    "download": "https://get.enterprisedb.com/postgresql/postgresql-16.2-1-windows-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/postgresql.png",
+    "popular": 10
+  },
+  {
+    "name": "MongoDB",
+    "description": "NoSQL document database.",
+    "tags": ["database", "nosql"],
+    "category": "Databases",
+    "url": "https://www.mongodb.com/",
+    "download": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.5-signed.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mongodb.png",
+    "popular": 9
+  },
+  {
+    "name": "Redis",
+    "description": "In-memory key-value store.",
+    "tags": ["database", "cache"],
+    "category": "Databases",
+    "url": "https://redis.io/",
+    "download": "https://github.com/tporadowski/redis/releases/latest/download/redis-x64-5.0.14.1.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/redis.png",
+    "popular": 8
+  },
+  {
+    "name": "SQLite",
+    "description": "Lightweight embedded SQL database.",
+    "tags": ["database", "sql"],
+    "category": "Databases",
+    "url": "https://sqlite.org/",
+    "download": "https://sqlite.org/2024/sqlite-tools-win-x64-3450200.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/sqlite.png",
+    "popular": 8
+  }
+  ]
+}

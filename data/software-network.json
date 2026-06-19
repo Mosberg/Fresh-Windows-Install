@@ -1,0 +1,227 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Wireshark",
+    "description": "Industry‑standard packet analyzer for network diagnostics.",
+    "tags": ["network", "packet", "analysis"],
+    "category": "Networking & Admin",
+    "url": "https://www.wireshark.org/",
+    "download": "https://www.wireshark.org/download/win64/",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/wireshark.png",
+    "popular": 10
+  },
+  {
+    "name": "Nmap",
+    "description": "Powerful network scanner and security auditing tool.",
+    "tags": ["network", "scanner", "security"],
+    "category": "Networking & Admin",
+    "url": "https://nmap.org/",
+    "download": "https://nmap.org/dist/nmap-7.95-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/nmap.png",
+    "popular": 10
+  },
+  {
+    "name": "Angry IP Scanner",
+    "description": "Fast and lightweight IP address and port scanner.",
+    "tags": ["network", "scanner"],
+    "category": "Networking & Admin",
+    "url": "https://angryip.org/",
+    "download": "https://github.com/angryip/ipscan/releases/latest/download/ipscan-win64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/angryip.png",
+    "popular": 9
+  },
+  {
+    "name": "Advanced IP Scanner",
+    "description": "LAN scanner for discovering devices on your network.",
+    "tags": ["network", "scanner"],
+    "category": "Networking & Admin",
+    "url": "https://www.advanced-ip-scanner.com/",
+    "download": "https://www.advanced-ip-scanner.com/download/",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/advancedip.png",
+    "popular": 8
+  },
+  {
+    "name": "OpenVPN",
+    "description": "Open‑source VPN client and tunneling framework.",
+    "tags": ["vpn", "security"],
+    "category": "Networking & Admin",
+    "url": "https://openvpn.net/",
+    "download": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.6.10-I001-amd64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openvpn.png",
+    "popular": 9
+  },
+  {
+    "name": "WireGuard",
+    "description": "Fast, modern, secure VPN protocol and client.",
+    "tags": ["vpn", "security"],
+    "category": "Networking & Admin",
+    "url": "https://www.wireguard.com/",
+    "download": "https://download.wireguard.com/windows-client/wireguard-installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/wireguard.png",
+    "popular": 10
+  },
+  {
+    "name": "Termius",
+    "description": "SSH client with sync and team features.",
+    "tags": ["ssh", "terminal"],
+    "category": "Networking & Admin",
+    "url": "https://termius.com/",
+    "download": "https://autoupdate.termius.com/windows/Termius.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/termius.png",
+    "popular": 8
+  },
+  {
+    "name": "MobaXterm",
+    "description": "Enhanced terminal with X11, SSH, SFTP, and Unix tools.",
+    "tags": ["ssh", "terminal", "sftp"],
+    "category": "Networking & Admin",
+    "url": "https://mobaxterm.mobatek.net/",
+    "download": "https://download.mobatek.net/2402024021123456/MobaXterm_Installer_v24.0.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mobaxterm.png",
+    "popular": 9
+  },
+  {
+    "name": "WinSCP",
+    "description": "SFTP, FTP, WebDAV, and SCP client.",
+    "tags": ["sftp", "ftp", "ssh"],
+    "category": "Networking & Admin",
+    "url": "https://winscp.net/",
+    "download": "https://winscp.net/download/WinSCP-6.3.2-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/winscp.png",
+    "popular": 10
+  },
+  {
+    "name": "Cyberduck",
+    "description": "FTP, SFTP, WebDAV, and cloud storage client.",
+    "tags": ["ftp", "sftp", "cloud"],
+    "category": "Networking & Admin",
+    "url": "https://cyberduck.io/",
+    "download": "https://update.cyberduck.io/windows/Cyberduck-Installer-8.7.1.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/cyberduck.png",
+    "popular": 8
+  },
+  {
+    "name": "PuTTY",
+    "description": "Classic SSH and telnet client.",
+    "tags": ["ssh", "terminal"],
+    "category": "Networking & Admin",
+    "url": "https://www.putty.org/",
+    "download": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/putty.png",
+    "popular": 9
+  },
+  {
+    "name": "Fing Desktop",
+    "description": "Network device discovery and monitoring.",
+    "tags": ["network", "monitoring"],
+    "category": "Networking & Admin",
+    "url": "https://www.fing.com/products/fing-desktop",
+    "download": "https://get.fing.com/fing-desktop-download",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/fing.png",
+    "popular": 7
+  },
+  {
+    "name": "NetLimiter",
+    "description": "Network traffic control and monitoring tool.",
+    "tags": ["network", "limit", "monitoring"],
+    "category": "Networking & Admin",
+    "url": "https://www.netlimiter.com/",
+    "download": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.1.16.0.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/netlimiter.png",
+    "popular": 8
+  },
+  {
+    "name": "GlassWire",
+    "description": "Network monitoring and firewall visualization.",
+    "tags": ["network", "firewall"],
+    "category": "Networking & Admin",
+    "url": "https://www.glasswire.com/",
+    "download": "https://download.glasswire.com/GlassWireSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/glasswire.png",
+    "popular": 8
+  },
+  {
+    "name": "SimpleWall",
+    "description": "Lightweight Windows firewall controller.",
+    "tags": ["firewall", "security"],
+    "category": "Networking & Admin",
+    "url": "https://www.henrypp.org/product/simplewall",
+    "download": "https://github.com/henrypp/simplewall/releases/latest/download/simplewall-3.8.8-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/simplewall.png",
+    "popular": 9
+  },
+  {
+    "name": "Windows Firewall Control",
+    "description": "Advanced firewall management for Windows.",
+    "tags": ["firewall", "security"],
+    "category": "Networking & Admin",
+    "url": "https://www.binisoft.org/wfc",
+    "download": "https://www.binisoft.org/download/wfc6setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/wfc.png",
+    "popular": 8
+  },
+  {
+    "name": "Netcat",
+    "description": "Networking utility for debugging and testing.",
+    "tags": ["network", "debug"],
+    "category": "Networking & Admin",
+    "url": "https://nmap.org/ncat/",
+    "download": "https://nmap.org/dist/ncat-portable-5.59BETA1.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/netcat.png",
+    "popular": 7
+  },
+  {
+    "name": "OpenSnitch",
+    "description": "Interactive outbound firewall.",
+    "tags": ["firewall", "security"],
+    "category": "Networking & Admin",
+    "url": "https://github.com/evilsocket/opensnitch",
+    "download": "https://github.com/evilsocket/opensnitch/releases",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/opensnitch.png",
+    "popular": 7
+  },
+  {
+    "name": "NetTraffic",
+    "description": "Real‑time network traffic monitor.",
+    "tags": ["network", "monitoring"],
+    "category": "Networking & Admin",
+    "url": "https://venea.net/en/nettraffic",
+    "download": "https://venea.net/files/nettraffic/NetTraffic-1.68.1-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/nettraffic.png",
+    "popular": 7
+  },
+  {
+    "name": "TCPView",
+    "description": "Shows detailed TCP/UDP connections.",
+    "tags": ["network", "sysinternals"],
+    "category": "Networking & Admin",
+    "url": "https://learn.microsoft.com/sysinternals/downloads/tcpview",
+    "download": "https://download.sysinternals.com/files/TCPView.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/tcpview.png",
+    "popular": 9
+  },
+  {
+    "name": "Process Monitor",
+    "description": "Advanced system monitoring tool.",
+    "tags": ["monitoring", "sysinternals"],
+    "category": "Networking & Admin",
+    "url": "https://learn.microsoft.com/sysinternals/downloads/procmon",
+    "download": "https://download.sysinternals.com/files/ProcessMonitor.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/procmon.png",
+    "popular": 10
+  },
+  {
+    "name": "NetWorx",
+    "description": "Bandwidth monitoring and usage tracking.",
+    "tags": ["network", "bandwidth"],
+    "category": "Networking & Admin",
+    "url": "https://www.softperfect.com/products/networx/",
+    "download": "https://www.softperfect.com/download/files/networx_setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/networx.png",
+    "popular": 7
+  }
+]
+
+}

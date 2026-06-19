@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Steam",
+    "description": "The largest PC gaming platform and library manager.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://store.steampowered.com/about/",
+    "download": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/steam.png",
+    "popular": 10
+  },
+  {
+    "name": "Epic Games Launcher",
+    "description": "Game launcher with weekly free games.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.epicgames.com/store/",
+    "download": "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/epicgames.png",
+    "popular": 9
+  },
+  {
+    "name": "GOG Galaxy",
+    "description": "DRM‑free game launcher with multi‑platform library sync.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.gog.com/galaxy",
+    "download": "https://content-system.gog.com/open_link/download?path=/open/galaxy/client/2.0.67.3/galaxy_client_2.0.67.3.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/gog.png",
+    "popular": 8
+  },
+  {
+    "name": "Ubisoft Connect",
+    "description": "Ubisoft’s official game launcher.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://ubisoftconnect.com/",
+    "download": "https://ubi.li/4vxt9",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ubisoft.png",
+    "popular": 7
+  },
+  {
+    "name": "EA App",
+    "description": "Electronic Arts game launcher.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.ea.com/ea-app",
+    "download": "https://origin-a.akamaihd.net/EA-Desktop-Client/installer-releases/EAappInstaller.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ea.png",
+    "popular": 7
+  },
+  {
+    "name": "Battle.net",
+    "description": "Blizzard’s official launcher for Diablo, WoW, Overwatch, and more.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.blizzard.com/apps/battle.net/desktop",
+    "download": "https://downloader.battle.net/download/getInstaller?os=win&installer=Battle.net-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/battlenet.png",
+    "popular": 9
+  },
+  {
+    "name": "Riot Client",
+    "description": "Launcher for League of Legends, Valorant, and Riot titles.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.riotgames.com/",
+    "download": "https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.eu.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/riot.png",
+    "popular": 8
+  },
+  {
+    "name": "Rockstar Games Launcher",
+    "description": "Launcher for GTA V, RDR2, and Rockstar titles.",
+    "tags": ["gaming", "launcher"],
+    "category": "Gaming & Launchers",
+    "url": "https://www.rockstargames.com/launcher",
+    "download": "https://gamedownloads-rockstargames-com.akamaized.net/public/installer/Rockstar-Games-Launcher.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rockstar.png",
+    "popular": 7
+  },
+  {
+    "name": "Itch.io",
+    "description": "Indie game launcher and marketplace.",
+    "tags": ["gaming", "indie"],
+    "category": "Gaming & Launchers",
+    "url": "https://itch.io/app",
+    "download": "https://itch.io/app/download?platform=windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/itchio.png",
+    "popular": 7
+  },
+  {
+    "name": "Playnite",
+    "description": "Unified game library manager with emulation support.",
+    "tags": ["gaming", "library"],
+    "category": "Gaming & Launchers",
+    "url": "https://playnite.link/",
+    "download": "https://github.com/JosefNemec/Playnite/releases/latest/download/PlayniteInstaller.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/playnite.png",
+    "popular": 9
+  },
+
+  {
+    "name": "RetroArch",
+    "description": "All‑in‑one emulator frontend.",
+    "tags": ["emulator", "retro"],
+    "category": "Emulation",
+    "url": "https://www.retroarch.com/",
+    "download": "https://buildbot.libretro.com/stable/1.17.0/windows/x86_64/RetroArch.7z",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/retroarch.png",
+    "popular": 10
+  },
+  {
+    "name": "PCSX2",
+    "description": "PlayStation 2 emulator.",
+    "tags": ["emulator", "ps2"],
+    "category": "Emulation",
+    "url": "https://pcsx2.net/",
+    "download": "https://github.com/PCSX2/pcsx2/releases/latest/download/pcsx2-v1.7.6000-windows-x64-Qt.7z",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/pcsx2.png",
+    "popular": 9
+  },
+  {
+    "name": "Dolphin Emulator",
+    "description": "GameCube and Wii emulator.",
+    "tags": ["emulator", "wii", "gamecube"],
+    "category": "Emulation",
+    "url": "https://dolphin-emu.org/",
+    "download": "https://dl.dolphin-emu.org/builds/dolphin-master-latest-x64.7z",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/dolphin.png",
+    "popular": 10
+  },
+  {
+    "name": "Yuzu",
+    "description": "Nintendo Switch emulator.",
+    "tags": ["emulator", "switch"],
+    "category": "Emulation",
+    "url": "https://yuzu-emu.org/",
+    "download": "https://github.com/yuzu-emu/yuzu-mainline/releases/latest/download/yuzu-windows-msvc.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/yuzu.png",
+    "popular": 9
+  },
+  {
+    "name": "Cemu",
+    "description": "Wii U emulator.",
+    "tags": ["emulator", "wiiu"],
+    "category": "Emulation",
+    "url": "https://cemu.info/",
+    "download": "https://github.com/cemu-project/Cemu/releases/latest/download/Cemu.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/cemu.png",
+    "popular": 8
+  },
+  {
+    "name": "PPSSPP",
+    "description": "PSP emulator.",
+    "tags": ["emulator", "psp"],
+    "category": "Emulation",
+    "url": "https://www.ppsspp.org/",
+    "download": "https://www.ppsspp.org/files/1_17_1/ppsspp_win.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ppsspp.png",
+    "popular": 9
+  },
+  {
+    "name": "Citra",
+    "description": "Nintendo 3DS emulator.",
+    "tags": ["emulator", "3ds"],
+    "category": "Emulation",
+    "url": "https://citra-emu.org/",
+    "download": "https://github.com/citra-emu/citra-nightly/releases/latest/download/citra-windows-msvc.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/citra.png",
+    "popular": 8
+  },
+
+  {
+    "name": "DS4Windows",
+    "description": "PlayStation controller support for Windows.",
+    "tags": ["controller", "input"],
+    "category": "Gaming Tools",
+    "url": "https://ds4-windows.com/",
+    "download": "https://github.com/Ryochan7/DS4Windows/releases/latest/download/DS4Windows.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ds4windows.png",
+    "popular": 9
+  },
+  {
+    "name": "InputMapper",
+    "description": "Controller remapping tool.",
+    "tags": ["controller", "mapping"],
+    "category": "Gaming Tools",
+    "url": "https://inputmapper.com/",
+    "download": "https://inputmapper.com/downloads/category/2-inputmapper",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/inputmapper.png",
+    "popular": 7
+  },
+  {
+    "name": "JoyToKey",
+    "description": "Map controller input to keyboard/mouse.",
+    "tags": ["controller", "mapping"],
+    "category": "Gaming Tools",
+    "url": "https://joytokey.net/en/",
+    "download": "https://joytokey.net/download/JoyToKey_en.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/joytokey.png",
+    "popular": 7
+  },
+  {
+    "name": "RivaTuner Statistics Server",
+    "description": "FPS overlay and frame limiter.",
+    "tags": ["fps", "overlay"],
+    "category": "Gaming Tools",
+    "url": "https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html",
+    "download": "https://www.guru3d.com/files-get/rtss-rivatuner-statistics-server-download,1.html",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rtss.png",
+    "popular": 9
+  },
+  {
+    "name": "OpenRGB Plugins",
+    "description": "Plugin pack for OpenRGB.",
+    "tags": ["rgb", "lighting"],
+    "category": "Gaming Tools",
+    "url": "https://openrgb.org/",
+    "download": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/releases",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openrgb.png",
+    "popular": 7
+  },
+
+  {
+    "name": "NVIDIA GeForce Drivers",
+    "description": "Official GPU drivers for NVIDIA graphics cards.",
+    "tags": ["drivers", "gpu"],
+    "category": "Drivers",
+    "url": "https://www.nvidia.com/Download/index.aspx",
+    "download": "https://us.download.nvidia.com/Windows/551.23/551.23-desktop-win10-win11-64bit-international-dch-whql.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/nvidia.png",
+    "popular": 10
+  },
+  {
+    "name": "AMD Radeon Drivers",
+    "description": "Official GPU drivers for AMD Radeon graphics cards.",
+    "tags": ["drivers", "gpu"],
+    "category": "Drivers",
+    "url": "https://www.amd.com/en/support",
+    "download": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.5.1-win10-win11-64bit.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/amd.png",
+    "popular": 9
+  },
+  {
+    "name": "Intel Drivers",
+    "description": "Chipset, Wi‑Fi, Bluetooth, and iGPU drivers.",
+    "tags": ["drivers", "intel"],
+    "category": "Drivers",
+    "url": "https://www.intel.com/content/www/us/en/download-center/home.html",
+    "download": "https://www.intel.com/content/www/us/en/download/19344/intel-driver-support-assistant.html",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/intel.png",
+    "popular": 8
+  }
+]
+
+}

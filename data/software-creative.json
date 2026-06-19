@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Blender",
+    "description": "Open‑source 3D modeling, animation, and rendering suite.",
+    "tags": ["3d", "modeling", "animation"],
+    "category": "Creative Tools",
+    "url": "https://www.blender.org/",
+    "download": "https://www.blender.org/download/",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/blender.png",
+    "popular": 10
+  },
+  {
+    "name": "Inkscape",
+    "description": "Vector graphics editor similar to Adobe Illustrator.",
+    "tags": ["vector", "graphics", "design"],
+    "category": "Creative Tools",
+    "url": "https://inkscape.org/",
+    "download": "https://inkscape.org/release/inkscape-1.3.2/windows/64-bit/exe/",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/inkscape.png",
+    "popular": 9
+  },
+  {
+    "name": "GIMP",
+    "description": "Open‑source raster graphics editor.",
+    "tags": ["image", "editing"],
+    "category": "Creative Tools",
+    "url": "https://www.gimp.org/",
+    "download": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.36-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/gimp.png",
+    "popular": 9
+  },
+  {
+    "name": "Krita",
+    "description": "Professional digital painting software.",
+    "tags": ["art", "painting"],
+    "category": "Creative Tools",
+    "url": "https://krita.org/",
+    "download": "https://download.kde.org/stable/krita/5.2.2/krita-x64-5.2.2-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/krita.png",
+    "popular": 9
+  },
+  {
+    "name": "Paint.NET",
+    "description": "Lightweight image editor with plugin support.",
+    "tags": ["image", "editing"],
+    "category": "Creative Tools",
+    "url": "https://www.getpaint.net/",
+    "download": "https://www.dotpdn.com/files/paint.net.5.0.12.install.anycpu.web.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/paintnet.png",
+    "popular": 8
+  },
+  {
+    "name": "PhotoDemon",
+    "description": "Portable photo editor with advanced tools.",
+    "tags": ["image", "editing"],
+    "category": "Creative Tools",
+    "url": "https://photodemon.org/",
+    "download": "https://photodemon.org/download/",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/photodemon.png",
+    "popular": 7
+  },
+  {
+    "name": "Darktable",
+    "description": "RAW photo editor similar to Lightroom.",
+    "tags": ["photo", "raw"],
+    "category": "Creative Tools",
+    "url": "https://www.darktable.org/",
+    "download": "https://github.com/darktable-org/darktable/releases/latest/download/darktable-4.6.0-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/darktable.png",
+    "popular": 8
+  },
+  {
+    "name": "RawTherapee",
+    "description": "Advanced RAW photo processing tool.",
+    "tags": ["photo", "raw"],
+    "category": "Creative Tools",
+    "url": "https://rawtherapee.com/",
+    "download": "https://rawtherapee.com/shared/builds/windows/RawTherapee_5.10_win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rawtherapee.png",
+    "popular": 7
+  },
+  {
+    "name": "DaVinci Resolve",
+    "description": "Professional video editing and color grading suite.",
+    "tags": ["video", "editing", "color"],
+    "category": "Creative Tools",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve/",
+    "download": "https://www.blackmagicdesign.com/api/support/download?product=DaVinci+Resolve&platform=Windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/davinciresolve.png",
+    "popular": 10
+  },
+  {
+    "name": "Shotcut",
+    "description": "Open‑source video editor.",
+    "tags": ["video", "editing"],
+    "category": "Creative Tools",
+    "url": "https://shotcut.org/",
+    "download": "https://github.com/mltframework/shotcut/releases/latest/download/shotcut-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/shotcut.png",
+    "popular": 8
+  },
+  {
+    "name": "Olive Video Editor",
+    "description": "Non-linear video editor in active development.",
+    "tags": ["video", "editing"],
+    "category": "Creative Tools",
+    "url": "https://www.olivevideoeditor.org/",
+    "download": "https://github.com/olive-editor/olive/releases/latest/download/Olive-Alpha-0.1.3-Windows.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/olive.png",
+    "popular": 7
+  },
+  {
+    "name": "HandBrake",
+    "description": "Video transcoder for converting and compressing media.",
+    "tags": ["video", "transcode"],
+    "category": "Creative Tools",
+    "url": "https://handbrake.fr/",
+    "download": "https://github.com/HandBrake/HandBrake/releases/latest/download/HandBrake-1.7.3-x86_64-Win_GUI.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/handbrake.png",
+    "popular": 9
+  },
+  {
+    "name": "OBS Studio",
+    "description": "Streaming and screen recording suite.",
+    "tags": ["streaming", "recording"],
+    "category": "Creative Tools",
+    "url": "https://obsproject.com/",
+    "download": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/obs.png",
+    "popular": 10
+  },
+  {
+    "name": "Streamlabs Desktop",
+    "description": "Streaming suite built on OBS with added features.",
+    "tags": ["streaming", "recording"],
+    "category": "Creative Tools",
+    "url": "https://streamlabs.com/",
+    "download": "https://slobs-cdn.streamlabs.com/Streamlabs+Desktop+Setup+1.14.0.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/streamlabs.png",
+    "popular": 8
+  },
+  {
+    "name": "Audacity",
+    "description": "Open‑source audio recording and editing.",
+    "tags": ["audio", "editing"],
+    "category": "Creative Tools",
+    "url": "https://www.audacityteam.org/",
+    "download": "https://github.com/audacity/audacity/releases/latest/download/audacity-win-3.4.2-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/audacity.png",
+    "popular": 9
+  },
+  {
+    "name": "LMMS",
+    "description": "Music production workstation.",
+    "tags": ["audio", "music"],
+    "category": "Creative Tools",
+    "url": "https://lmms.io/",
+    "download": "https://github.com/LMMS/lmms/releases/latest/download/lmms-1.3.0-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/lmms.png",
+    "popular": 7
+  },
+  {
+    "name": "Mixxx",
+    "description": "Open‑source DJ mixing software.",
+    "tags": ["audio", "dj"],
+    "category": "Creative Tools",
+    "url": "https://mixxx.org/",
+    "download": "https://downloads.mixxx.org/releases/2.4.1/mixxx-2.4.1-win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mixxx.png",
+    "popular": 7
+  },
+  {
+    "name": "MuseScore",
+    "description": "Music notation and composition software.",
+    "tags": ["music", "notation"],
+    "category": "Creative Tools",
+    "url": "https://musescore.org/",
+    "download": "https://cdn.jsdelivr.net/musescore/v4.3.2/MuseScore-4.3.2.241231751-x86_64.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/musescore.png",
+    "popular": 8
+  },
+  {
+    "name": "Aseprite (LibreSprite)",
+    "description": "Pixel art editor (open-source fork).",
+    "tags": ["pixel", "art"],
+    "category": "Creative Tools",
+    "url": "https://libresprite.github.io/",
+    "download": "https://github.com/LibreSprite/LibreSprite/releases/latest/download/LibreSprite-Windows.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/libresprite.png",
+    "popular": 7
+  },
+  {
+    "name": "OpenToonz",
+    "description": "2D animation software used by Studio Ghibli.",
+    "tags": ["animation", "2d"],
+    "category": "Creative Tools",
+    "url": "https://opentoonz.github.io/",
+    "download": "https://github.com/opentoonz/opentoonz/releases/latest/download/OpenToonzSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/opentoonz.png",
+    "popular": 8
+  },
+  {
+    "name": "Synfig Studio",
+    "description": "Open‑source 2D animation software.",
+    "tags": ["animation", "2d"],
+    "category": "Creative Tools",
+    "url": "https://www.synfig.org/",
+    "download": "https://github.com/synfig/synfig/releases/latest/download/SynfigStudio-1.5.2-win64-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/synfig.png",
+    "popular": 7
+  },
+  {
+    "name": "Natron",
+    "description": "Open‑source compositing software similar to Nuke.",
+    "tags": ["compositing", "vfx"],
+    "category": "Creative Tools",
+    "url": "https://natrongithub.github.io/",
+    "download": "https://github.com/NatronGitHub/Natron/releases/latest/download/Natron-Portable.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/natron.png",
+    "popular": 7
+  },
+  {
+    "name": "MakeHuman",
+    "description": "3D human character creator.",
+    "tags": ["3d", "character"],
+    "category": "Creative Tools",
+    "url": "http://www.makehumancommunity.org/",
+    "download": "http://download.tuxfamily.org/makehuman/releases/1.2.0/makehuman-community-1.2.0-win32.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/makehuman.png",
+    "popular": 6
+  },
+  {
+    "name": "Wings 3D",
+    "description": "Subdivision modeler for 3D modeling.",
+    "tags": ["3d", "modeling"],
+    "category": "Creative Tools",
+    "url": "http://www.wings3d.com/",
+    "download": "https://sourceforge.net/projects/wings/files/wings/2.2.9/wings-x64-2.2.9.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/wings3d.png",
+    "popular": 6
+  }
+]
+
+}

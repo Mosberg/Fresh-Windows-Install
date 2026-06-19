@@ -1,0 +1,307 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Malwarebytes",
+    "description": "On‑demand malware scanner and removal tool.",
+    "tags": ["security", "malware"],
+    "category": "Security & Privacy",
+    "url": "https://www.malwarebytes.com/",
+    "download": "https://downloads.malwarebytes.com/file/mb-windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/malwarebytes.png",
+    "popular": 10
+  },
+  {
+    "name": "Windows Defender",
+    "description": "Built‑in antivirus and security suite for Windows.",
+    "tags": ["security", "antivirus"],
+    "category": "Security & Privacy",
+    "url": "https://www.microsoft.com/en-us/windows/comprehensive-security",
+    "download": "",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/windowsdefender.png",
+    "popular": 10
+  },
+  {
+    "name": "Bitdefender Antivirus Free",
+    "description": "Lightweight antivirus with strong detection.",
+    "tags": ["security", "antivirus"],
+    "category": "Security & Privacy",
+    "url": "https://www.bitdefender.com/solutions/free.html",
+    "download": "https://download.bitdefender.com/windows/installer/en-us/bitdefender_online.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/bitdefender.png",
+    "popular": 9
+  },
+  {
+    "name": "Avast Free Antivirus",
+    "description": "Free antivirus with real‑time protection.",
+    "tags": ["security", "antivirus"],
+    "category": "Security & Privacy",
+    "url": "https://www.avast.com/free-antivirus-download",
+    "download": "https://files.avast.com/iavs9x/avast_free_antivirus_setup_online.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/avast.png",
+    "popular": 8
+  },
+  {
+    "name": "Kaspersky Free",
+    "description": "Free antivirus with strong malware detection.",
+    "tags": ["security", "antivirus"],
+    "category": "Security & Privacy",
+    "url": "https://www.kaspersky.com/free-antivirus",
+    "download": "https://products.s.kaspersky-labs.com/homeuser/kfa2024/24.0.0.0/english-uk/kfa24.0.0.0en_uk.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/kaspersky.png",
+    "popular": 8
+  },
+  {
+    "name": "ESET Online Scanner",
+    "description": "Cloud‑powered malware scanner.",
+    "tags": ["security", "malware"],
+    "category": "Security & Privacy",
+    "url": "https://www.eset.com/int/home/online-scanner/",
+    "download": "https://download.eset.com/com/eset/tools/online_scanner/latest/esetonlinescanner.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/eset.png",
+    "popular": 8
+  },
+  {
+    "name": "Spybot Anti‑Beacon",
+    "description": "Blocks Windows telemetry and tracking.",
+    "tags": ["privacy", "telemetry"],
+    "category": "Security & Privacy",
+    "url": "https://www.safer-networking.org/spybot-anti-beacon/",
+    "download": "https://download.spybot.info/AntiBeacon/AntiBeacon-3.7-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/spybot.png",
+    "popular": 8
+  },
+  {
+    "name": "O&O ShutUp10++",
+    "description": "Windows privacy and telemetry hardening tool.",
+    "tags": ["privacy", "windows"],
+    "category": "Security & Privacy",
+    "url": "https://www.oo-software.com/en/shutup10",
+    "download": "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/shutup10.png",
+    "popular": 10
+  },
+  {
+    "name": "SimpleWall",
+    "description": "Lightweight Windows firewall controller.",
+    "tags": ["firewall", "security"],
+    "category": "Security & Privacy",
+    "url": "https://www.henrypp.org/product/simplewall",
+    "download": "https://github.com/henrypp/simplewall/releases/latest/download/simplewall-3.8.8-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/simplewall.png",
+    "popular": 9
+  },
+  {
+    "name": "VeraCrypt",
+    "description": "Disk encryption software and successor to TrueCrypt.",
+    "tags": ["encryption", "security"],
+    "category": "Security & Privacy",
+    "url": "https://www.veracrypt.fr/",
+    "download": "https://launchpad.net/veracrypt/trunk/1.26.7/+download/VeraCrypt%20Setup%201.26.7.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/veracrypt.png",
+    "popular": 10
+  },
+  {
+    "name": "KeePass",
+    "description": "Local password manager with encrypted database.",
+    "tags": ["passwords", "security"],
+    "category": "Security & Privacy",
+    "url": "https://keepass.info/",
+    "download": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.56/KeePass-2.56-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/keepass.png",
+    "popular": 9
+  },
+  {
+    "name": "KeePassXC",
+    "description": "Community‑driven KeePass fork with modern UI.",
+    "tags": ["passwords", "security"],
+    "category": "Security & Privacy",
+    "url": "https://keepassxc.org/",
+    "download": "https://github.com/keepassxreboot/keepassxc/releases/latest/download/KeePassXC-Win64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/keepassxc.png",
+    "popular": 9
+  },
+  {
+    "name": "Bitwarden",
+    "description": "Open‑source cloud password manager.",
+    "tags": ["passwords", "security"],
+    "category": "Security & Privacy",
+    "url": "https://bitwarden.com/",
+    "download": "https://vault.bitwarden.com/download/?app=desktop&platform=windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/bitwarden.png",
+    "popular": 10
+  },
+  {
+    "name": "NordVPN",
+    "description": "Popular VPN service with strong privacy features.",
+    "tags": ["vpn", "privacy"],
+    "category": "Security & Privacy",
+    "url": "https://nordvpn.com/",
+    "download": "https://downloads.nordcdn.com/apps/windows/10/NordVPN/latest/NordVPN.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/nordvpn.png",
+    "popular": 9
+  },
+  {
+    "name": "ProtonVPN",
+    "description": "Secure VPN from the makers of ProtonMail.",
+    "tags": ["vpn", "privacy"],
+    "category": "Security & Privacy",
+    "url": "https://protonvpn.com/",
+    "download": "https://protonvpn.com/download/ProtonVPN_win_v3.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/protonvpn.png",
+    "popular": 9
+  },
+  {
+    "name": "Mullvad VPN",
+    "description": "Privacy‑focused VPN with no email required.",
+    "tags": ["vpn", "privacy"],
+    "category": "Security & Privacy",
+    "url": "https://mullvad.net/",
+    "download": "https://mullvad.net/download/app/exe/latest",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mullvad.png",
+    "popular": 10
+  },
+  {
+    "name": "Tor Browser",
+    "description": "Anonymous browser routing traffic through Tor network.",
+    "tags": ["privacy", "browser"],
+    "category": "Security & Privacy",
+    "url": "https://www.torproject.org/",
+    "download": "https://www.torproject.org/dist/torbrowser/14.0.4/torbrowser-install-win64-14.0.4_ALL.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/tor.png",
+    "popular": 10
+  },
+  {
+    "name": "Mullvad Browser",
+    "description": "Privacy‑focused browser built with Tor Browser tech.",
+    "tags": ["privacy", "browser"],
+    "category": "Security & Privacy",
+    "url": "https://mullvad.net/browser",
+    "download": "https://mullvad.net/download/browser/windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/mullvadbrowser.png",
+    "popular": 8
+  },
+  {
+    "name": "SimpleDNSCrypt",
+    "description": "DNSCrypt client for encrypted DNS.",
+    "tags": ["dns", "encryption"],
+    "category": "Security & Privacy",
+    "url": "https://simplednscrypt.org/",
+    "download": "https://github.com/DNSCrypt/dnscrypt-proxy/releases/latest/download/dnscrypt-proxy-win64-full.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/dnscrypt.png",
+    "popular": 8
+  },
+  {
+    "name": "GlassWire",
+    "description": "Network monitoring and firewall visualization.",
+    "tags": ["network", "firewall"],
+    "category": "Security & Privacy",
+    "url": "https://www.glasswire.com/",
+    "download": "https://download.glasswire.com/GlassWireSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/glasswire.png",
+    "popular": 8
+  },
+  {
+    "name": "NetLimiter",
+    "description": "Network traffic control and monitoring tool.",
+    "tags": ["network", "limit"],
+    "category": "Security & Privacy",
+    "url": "https://www.netlimiter.com/",
+    "download": "https://www.netlimiter.com/files/download/nl4/netlimiter-4.1.16.0.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/netlimiter.png",
+    "popular": 8
+  },
+  {
+    "name": "BleachBit",
+    "description": "Privacy cleaner and system cleanup tool.",
+    "tags": ["privacy", "cleanup"],
+    "category": "Security & Privacy",
+    "url": "https://www.bleachbit.org/",
+    "download": "https://download.bleachbit.org/BleachBit-4.6.0-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/bleachbit.png",
+    "popular": 8
+  },
+  {
+    "name": "CCleaner",
+    "description": "System cleaner and privacy tool.",
+    "tags": ["cleanup", "privacy"],
+    "category": "Security & Privacy",
+    "url": "https://www.ccleaner.com/",
+    "download": "https://download.ccleaner.com/ccsetup614.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ccleaner.png",
+    "popular": 7
+  },
+  {
+    "name": "RogueKiller",
+    "description": "Advanced malware and rootkit scanner.",
+    "tags": ["malware", "rootkit"],
+    "category": "Security & Privacy",
+    "url": "https://www.adlice.com/roguekiller/",
+    "download": "https://download.adlice.com/RogueKiller/RogueKiller_portable64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/roguekiller.png",
+    "popular": 7
+  },
+  {
+    "name": "HitmanPro",
+    "description": "Second‑opinion malware scanner.",
+    "tags": ["malware", "scanner"],
+    "category": "Security & Privacy",
+    "url": "https://www.hitmanpro.com/",
+    "download": "https://dl.surfright.nl/HitmanPro.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/hitmanpro.png",
+    "popular": 8
+  },
+  {
+    "name": "AdwCleaner",
+    "description": "Adware and PUP removal tool.",
+    "tags": ["adware", "malware"],
+    "category": "Security & Privacy",
+    "url": "https://www.malwarebytes.com/adwcleaner",
+    "download": "https://downloads.malwarebytes.com/file/adwcleaner",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/adwcleaner.png",
+    "popular": 9
+  },
+  {
+    "name": "GlassWire Free",
+    "description": "Network monitoring and firewall visualization.",
+    "tags": ["network", "firewall"],
+    "category": "Security & Privacy",
+    "url": "https://www.glasswire.com/",
+    "download": "https://download.glasswire.com/GlassWireSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/glasswire.png",
+    "popular": 8
+  },
+  {
+    "name": "OpenSnitch",
+    "description": "Interactive outbound firewall.",
+    "tags": ["firewall", "security"],
+    "category": "Security & Privacy",
+    "url": "https://github.com/evilsocket/opensnitch",
+    "download": "https://github.com/evilsocket/opensnitch/releases",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/opensnitch.png",
+    "popular": 7
+  },
+  {
+    "name": "ClamAV",
+    "description": "Open‑source antivirus engine.",
+    "tags": ["antivirus", "security"],
+    "category": "Security & Privacy",
+    "url": "https://www.clamav.net/",
+    "download": "https://www.clamav.net/downloads/production/clamav-1.3.1.win.x64.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/clamav.png",
+    "popular": 7
+  },
+  {
+    "name": "KeeWeb",
+    "description": "KeePass-compatible password manager.",
+    "tags": ["passwords", "security"],
+    "category": "Security & Privacy",
+    "url": "https://keeweb.info/",
+    "download": "https://github.com/keeweb/keeweb/releases/latest/download/KeeWeb.win.x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/keeweb.png",
+    "popular": 7
+  }
+]
+
+}
