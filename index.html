@@ -2,28 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Fresh Windows Install Dashboard</title>
+  <title>Dynamic Software Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- External CSS -->
   <link rel="stylesheet" href="https://mosberg.github.io/Fresh-Windows-Install/css/styles.css" />
 </head>
 
 <body>
-
   <header>
-    <h1>Fresh Windows Install Dashboard</h1>
-    <p>Modular JSON loading · Real icons · GitHub powered</p>
+    <h1>Dynamic Software Dashboard</h1>
+    <p>JSON‑driven, Modular JSON loading, icon‑rich, and GitHub‑powered software catalog.</p>
   </header>
 
-  <main id="app"></main>
+  <main>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="top-bar-status">
+          App v<span id="appVersion"></span> ·
+          Data v<span id="dataVersion">–</span> ·
+          <span id="updateStatus">Loading…</span>
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <button id="reloadDataBtn" class="small">Reload JSON</button>
+        <button id="themeToggle" class="theme-toggle small">Toggle theme</button>
+      </div>
+    </div>
 
-  <!-- External JS Modules -->
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search software by name, description, tag…" />
+      <select id="sort">
+        <option value="az">Sort A → Z</option>
+        <option value="za">Sort Z → A</option>
+        <option value="category">Sort by category</option>
+        <option value="popular">Sort by popularity</option>
+      </select>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="onlyFavorites" />
+        Only favorites
+      </label>
+    </div>
+
+    <div class="filter-row">
+      <div class="filter-group">
+        <div class="filter-title">Filter by tags</div>
+        <div id="tagFilters" class="filter-tags"></div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-title">Filter by categories</div>
+        <div id="categoryFilters" class="filter-categories"></div>
+      </div>
+    </div>
+
+    <div class="slider-row">
+      <label for="popularitySlider">Minimum popularity:</label>
+      <input type="range" id="popularitySlider" min="0" max="10" value="0" />
+      <span id="popularityValue">0</span>
+    </div>
+
+    <div id="categories"></div>
+
+    <div class="tools-panel">
+      <div class="tools-section">
+        <h2>Favorites and Batch Installer</h2>
+        <div class="tools-buttons-row">
+          <button id="exportFavoritesBtn" class="small">Export favorites JSON</button>
+          <button id="importFavoritesBtn" class="small">Import favorites JSON</button>
+          <button id="clearFavoritesBtn" class="small">Clear favorites</button>
+        </div>
+        <textarea id="favoritesJson" placeholder="Favorites JSON will appear here when exported…"></textarea>
+        <div class="tools-buttons-row">
+          <button id="generateBatchBtn" class="primary small">Generate batch installer script (winget‑style)</button>
+        </div>
+        <textarea id="batchScript" placeholder="Generated batch/PowerShell script will appear here…"></textarea>
+      </div>
+
+      <div class="tools-section">
+        <h2>Config Editor and Perchance Export</h2>
+        <div class="tools-buttons-row">
+          <button id="loadConfigBtn" class="small">Load current config JSON</button>
+          <button id="applyConfigBtn" class="primary small">Apply edited config</button>
+          <button id="exportPerchanceBtn" class="small">Export Perchance JSON</button>
+        </div>
+        <textarea id="configEditor" placeholder="Click 'Load current config JSON' to edit categories and software…"></textarea>
+        <textarea id="perchanceOutput" placeholder="Perchance‑friendly JSON will appear here…"></textarea>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    JSON‑driven dashboard – update split JSON files in your GitHub repo and reload this page.
+  </footer>
+
   <script src="https://mosberg.github.io/Fresh-Windows-Install/js/config.js"></script>
   <script src="https://mosberg.github.io/Fresh-Windows-Install/js/loader.js"></script>
   <script src="https://mosberg.github.io/Fresh-Windows-Install/js/state.js"></script>
   <script src="https://mosberg.github.io/Fresh-Windows-Install/js/ui.js"></script>
   <script src="https://mosberg.github.io/Fresh-Windows-Install/js/main.js"></script>
-
 </body>
 </html>
