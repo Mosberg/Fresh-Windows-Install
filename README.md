@@ -2,6 +2,7 @@
 A modular, JSON‑driven software dashboard for Windows — powered by GitHub Pages.
 
 [Github](https://mosberg.github.io/Fresh-Windows-Install/) - [Perchance](https://perchance.org/dynamic-software-dashboard)
+(Github)[https://mosberg.github.io/Fresh-Windows-Install] - (Perchance)[https://perchance.org/dynamic-software-dashboard]
 
 ## 🚀 Features
 - Loads **multiple JSON files dynamically**
