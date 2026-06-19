@@ -138,8 +138,8 @@ function render() {
           <h3>${item.name}</h3>
           <p>${safeDesc}</p>
           <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.2rem;">
-            <a href="${item.url}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;font-size:0.85rem;">Website</a>
-            ${item.download ? `<a href="${item.download}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;font-size:0.85rem;">Download</a>` : ""}
+            <button href="${item.url}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;font-size:0.85rem;">Website</button>
+            ${item.download ? `<button href="${item.download}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600;font-size:0.85rem;">Download</button>` : ""}
           </div>
           <div class="tags">${item.tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
         </div>
