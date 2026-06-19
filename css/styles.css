@@ -244,6 +244,7 @@ body.light .category {
   border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   transition: 0.18s ease;
+  text-align: center;
 }
 
 body.light .software-card {
