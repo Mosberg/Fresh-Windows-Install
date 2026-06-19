@@ -1,0 +1,327 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-18",
+  "software": [
+  {
+    "name": "Google Chrome",
+    "description": "Fast, widely supported browser with strong extension ecosystem.",
+    "tags": ["browser", "web"],
+    "category": "Web Browsers",
+    "url": "https://www.google.com/chrome/",
+    "download": "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/chrome.png",
+    "popular": 10
+  },
+  {
+    "name": "Mozilla Firefox",
+    "description": "Privacy‑focused browser with powerful customization.",
+    "tags": ["browser", "privacy"],
+    "category": "Web Browsers",
+    "url": "https://www.mozilla.org/firefox/",
+    "download": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/firefox.png",
+    "popular": 9
+  },
+  {
+    "name": "Brave Browser",
+    "description": "Privacy‑first browser with built‑in adblock and tracker blocking.",
+    "tags": ["browser", "privacy"],
+    "category": "Web Browsers",
+    "url": "https://brave.com/",
+    "download": "https://laptop-updates.brave.com/latest/winx64",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/brave.png",
+    "popular": 8
+  },
+  {
+    "name": "Opera GX",
+    "description": "Gaming‑oriented browser with CPU/RAM limiter.",
+    "tags": ["browser", "gaming"],
+    "category": "Web Browsers",
+    "url": "https://opera.com/gx",
+    "download": "https://net.geo.opera.com/opera_gx/stable/windows",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/operagx.png",
+    "popular": 7
+  },
+  {
+    "name": "Microsoft Edge",
+    "description": "Chromium‑based browser with Windows integration.",
+    "tags": ["browser", "windows"],
+    "category": "Web Browsers",
+    "url": "https://www.microsoft.com/edge",
+    "download": "https://go.microsoft.com/fwlink/?linkid=2108834",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/edge.png",
+    "popular": 8
+  },
+
+  {
+    "name": "7-Zip",
+    "description": "Open‑source file archiver supporting 7z, ZIP, TAR, and more.",
+    "tags": ["utility", "compression"],
+    "category": "System Tools",
+    "url": "https://www.7-zip.org/",
+    "download": "https://www.7-zip.org/a/7z2408-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/7zip.png",
+    "popular": 10
+  },
+  {
+    "name": "WinRAR",
+    "description": "Classic archive tool with RAR support.",
+    "tags": ["utility", "compression"],
+    "category": "System Tools",
+    "url": "https://www.rarlab.com/",
+    "download": "https://www.rarlab.com/rar/winrar-x64-701.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/winrar.png",
+    "popular": 8
+  },
+  {
+    "name": "Everything Search",
+    "description": "Instant file search engine for Windows.",
+    "tags": ["utility", "search"],
+    "category": "System Tools",
+    "url": "https://www.voidtools.com/",
+    "download": "https://www.voidtools.com/Everything-1.4.1.1024.x64-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/everything.png",
+    "popular": 10
+  },
+  {
+    "name": "PowerToys",
+    "description": "Advanced Windows utilities including FancyZones, PowerRename, and more.",
+    "tags": ["utility", "windows"],
+    "category": "System Tools",
+    "url": "https://github.com/microsoft/PowerToys",
+    "download": "https://github.com/microsoft/PowerToys/releases/latest/download/PowerToysSetup-x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/powertoys.png",
+    "popular": 9
+  },
+  {
+    "name": "HWInfo",
+    "description": "Professional hardware diagnostics and monitoring.",
+    "tags": ["hardware", "monitoring"],
+    "category": "System Tools",
+    "url": "https://www.hwinfo.com/",
+    "download": "https://www.hwinfo.com/files/hwi_760.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/hwinfo.png",
+    "popular": 9
+  },
+
+  {
+    "name": "Rufus",
+    "description": "Bootable USB creator for Windows and Linux ISOs.",
+    "tags": ["boot", "usb", "iso"],
+    "category": "Windows Essentials",
+    "url": "https://rufus.ie/",
+    "download": "https://github.com/pbatard/rufus/releases/latest/download/rufus-4.5.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rufus.png",
+    "popular": 10
+  },
+  {
+    "name": "Ventoy",
+    "description": "Multi‑ISO boot USB tool with drag‑and‑drop support.",
+    "tags": ["boot", "usb", "iso"],
+    "category": "Windows Essentials",
+    "url": "https://www.ventoy.net/",
+    "download": "https://github.com/ventoy/Ventoy/releases/latest/download/ventoy-1.0.99-windows.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/ventoy.png",
+    "popular": 9
+  },
+  {
+    "name": "WizTree",
+    "description": "Fastest disk space analyzer for Windows.",
+    "tags": ["disk", "storage"],
+    "category": "Windows Essentials",
+    "url": "https://wiztreefree.com/",
+    "download": "https://wiztreefree.com/files/wiztree_4_19_setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/wiztree.png",
+    "popular": 10
+  },
+  {
+    "name": "ShareX",
+    "description": "Powerful screenshot and screen recording tool.",
+    "tags": ["screenshot", "recording"],
+    "category": "Windows Essentials",
+    "url": "https://getsharex.com/",
+    "download": "https://github.com/ShareX/ShareX/releases/latest/download/ShareX-Portable.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/sharex.png",
+    "popular": 10
+  },
+  {
+    "name": "Greenshot",
+    "description": "Lightweight screenshot tool.",
+    "tags": ["screenshot"],
+    "category": "Windows Essentials",
+    "url": "https://getgreenshot.org/",
+    "download": "https://github.com/greenshot/greenshot/releases/latest/download/Greenshot-INSTALLER-RELEASE.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/greenshot.png",
+    "popular": 8
+  },
+  {
+    "name": "IrfanView",
+    "description": "Fast image viewer with plugins.",
+    "tags": ["image", "viewer"],
+    "category": "Windows Essentials",
+    "url": "https://www.irfanview.com/",
+    "download": "https://www.irfanview.info/files/iview470_setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/irfanview.png",
+    "popular": 9
+  },
+  {
+    "name": "FastStone Image Viewer",
+    "description": "Image viewer and organizer.",
+    "tags": ["image", "viewer"],
+    "category": "Windows Essentials",
+    "url": "https://www.faststone.org/FSViewerDetail.htm",
+    "download": "https://www.faststone.org/FSViewerSetup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/faststone.png",
+    "popular": 8
+  },
+  {
+    "name": "Autoruns",
+    "description": "Shows all startup programs and services.",
+    "tags": ["startup", "sysinternals"],
+    "category": "Windows Essentials",
+    "url": "https://learn.microsoft.com/sysinternals/downloads/autoruns",
+    "download": "https://download.sysinternals.com/files/Autoruns.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/autoruns.png",
+    "popular": 10
+  },
+  {
+    "name": "Process Explorer",
+    "description": "Advanced task manager from Sysinternals.",
+    "tags": ["sysinternals", "process"],
+    "category": "Windows Essentials",
+    "url": "https://learn.microsoft.com/sysinternals/downloads/process-explorer",
+    "download": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/processexplorer.png",
+    "popular": 10
+  },
+  {
+    "name": "Process Hacker",
+    "description": "Advanced process viewer and debugger.",
+    "tags": ["process", "debug"],
+    "category": "Windows Essentials",
+    "url": "https://processhacker.sourceforge.io/",
+    "download": "https://sourceforge.net/projects/processhacker/files/processhacker2/processhacker-2.39-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/processhacker.png",
+    "popular": 9
+  },
+  {
+    "name": "CrystalDiskInfo",
+    "description": "Disk health monitoring tool.",
+    "tags": ["disk", "health"],
+    "category": "Windows Essentials",
+    "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "download": "https://osdn.net/projects/crystaldiskinfo/downloads/80255/CrystalDiskInfo8_17_14.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/crystaldiskinfo.png",
+    "popular": 10
+  },
+  {
+    "name": "CrystalDiskMark",
+    "description": "Disk benchmarking tool.",
+    "tags": ["disk", "benchmark"],
+    "category": "Windows Essentials",
+    "url": "https://crystalmark.info/en/software/crystaldiskmark/",
+    "download": "https://osdn.net/projects/crystaldiskmark/downloads/80254/CrystalDiskMark8_0_4.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/crystaldiskmark.png",
+    "popular": 10
+  },
+  {
+    "name": "MSI Afterburner",
+    "description": "GPU overclocking and monitoring.",
+    "tags": ["gpu", "overclock"],
+    "category": "Windows Essentials",
+    "url": "https://www.msi.com/Landing/afterburner",
+    "download": "https://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/afterburner.png",
+    "popular": 10
+  },
+  {
+    "name": "FanControl",
+    "description": "Advanced fan curve controller.",
+    "tags": ["fan", "cooling"],
+    "category": "Windows Essentials",
+    "url": "https://getfancontrol.com/",
+    "download": "https://github.com/Rem0o/FanControl.Releases/releases/latest/download/FanControl.zip",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/fancontrol.png",
+    "popular": 9
+  },
+  {
+    "name": "OpenRGB",
+    "description": "Universal RGB lighting control.",
+    "tags": ["rgb", "lighting"],
+    "category": "Windows Essentials",
+    "url": "https://openrgb.org/",
+    "download": "https://gitlab.com/CalcProgrammer1/OpenRGB/-/releases",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/openrgb.png",
+    "popular": 8
+  },
+  {
+    "name": "Rainmeter",
+    "description": "Customizable desktop widgets and skins.",
+    "tags": ["desktop", "widgets"],
+    "category": "Windows Essentials",
+    "url": "https://www.rainmeter.net/",
+    "download": "https://www.rainmeter.net/releases/Rainmeter-4.5.18.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/rainmeter.png",
+    "popular": 9
+  },
+  {
+    "name": "F.lux",
+    "description": "Adjusts screen color temperature at night.",
+    "tags": ["display", "health"],
+    "category": "Windows Essentials",
+    "url": "https://justgetflux.com/",
+    "download": "https://justgetflux.com/flux-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/flux.png",
+    "popular": 8
+  },
+  {
+    "name": "LightBulb",
+    "description": "Open‑source alternative to f.lux.",
+    "tags": ["display", "health"],
+    "category": "Windows Essentials",
+    "url": "https://github.com/Tyrrrz/LightBulb",
+    "download": "https://github.com/Tyrrrz/LightBulb/releases/latest/download/LightBulb.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/lightbulb.png",
+    "popular": 7
+  },
+  {
+    "name": "WinMerge",
+    "description": "File and folder comparison tool.",
+    "tags": ["compare", "diff"],
+    "category": "Windows Essentials",
+    "url": "https://winmerge.org/",
+    "download": "https://github.com/WinMerge/winmerge/releases/latest/download/WinMerge-2.16.36-x64-Setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/winmerge.png",
+    "popular": 9
+  },
+  {
+    "name": "Notepad++",
+    "description": "Lightweight text editor with plugins.",
+    "tags": ["editor", "text"],
+    "category": "Windows Essentials",
+    "url": "https://notepad-plus-plus.org/",
+    "download": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest/download/npp.8.6.4.Installer.x64.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/notepadpp.png",
+    "popular": 10
+  },
+  {
+    "name": "FileZilla",
+    "description": "FTP/SFTP client.",
+    "tags": ["ftp", "sftp"],
+    "category": "Windows Essentials",
+    "url": "https://filezilla-project.org/",
+    "download": "https://download.filezilla-project.org/client/FileZilla_3.66.1_win64-setup.exe",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/filezilla.png",
+    "popular": 8
+  },
+  {
+    "name": "PuTTY",
+    "description": "SSH and telnet client.",
+    "tags": ["ssh", "terminal"],
+    "category": "Windows Essentials",
+    "url": "https://www.putty.org/",
+    "download": "https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.81-installer.msi",
+    "image": "https://raw.githubusercontent.com/Mosberg/Mosberg.github.io/refs/heads/main/icons/putty.png",
+    "popular": 9
+  }
+}
