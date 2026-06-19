@@ -1,6 +1,8 @@
 # Dynamic Software Dashboard  
 A modular, JSON‑driven software dashboard for Windows — powered by GitHub Pages.
 
+[Github](https://mosberg.github.io/Fresh-Windows-Install/) - [Perchance](https://perchance.org/dynamic-software-dashboard)
+
 ## 🚀 Features
 - Loads **multiple JSON files dynamically**
 - Uses **real official icons** stored in `/icons/`
@@ -27,7 +29,8 @@ Mosberg.github.io/
 │   ├── software-gaming.json
 │   ├── software-creative.json
 │   ├── software-security.json
-│   └── software-open-source.json
+│   ├── software-open-source.json
+│   └── software-network.json
 └── icons/
     └── *.png
 ```
