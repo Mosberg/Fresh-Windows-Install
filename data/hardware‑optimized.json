@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "software": [
+
+    {
+      "name": "AMD Chipset Drivers",
+      "category": "Drivers",
+      "description": "Official AMD chipset driver package for B450 motherboards. Required for PCIe, USB, SMBus, and Ryzen power management.",
+      "url": "https://www.amd.com/en/support/chipsets/amd-socket-am4/b450",
+      "download": "https://www.amd.com/en/support/chipsets/amd-socket-am4/b450",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/amd.png",
+      "tags": ["chipset", "b450", "amd", "drivers"],
+      "popular": 10
+    },
+
+    {
+      "name": "ASUS ROG STRIX B450-F GAMING II Drivers",
+      "category": "Drivers",
+      "description": "Motherboard-specific drivers including LAN, audio (Realtek), utilities, and firmware tools.",
+      "url": "https://www.asus.com/motherboards-components/motherboards/rog-strix/rog-strix-b450-f-gaming-ii/helpdesk_download/",
+      "download": "https://www.asus.com/motherboards-components/motherboards/rog-strix/rog-strix-b450-f-gaming-ii/helpdesk_download/",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/asus.png",
+      "tags": ["motherboard", "asus", "b450", "drivers"],
+      "popular": 10
+    },
+
+    {
+      "name": "Realtek Audio Driver (ROG B450-F II)",
+      "category": "Drivers",
+      "description": "Realtek ALC S1220A audio driver for your ASUS ROG B450-F Gaming II motherboard.",
+      "url": "https://www.asus.com/motherboards-components/motherboards/rog-strix/rog-strix-b450-f-gaming-ii/helpdesk_download/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/realtek.png",
+      "tags": ["audio", "realtek", "drivers"],
+      "popular": 9
+    },
+
+    {
+      "name": "Intel I211-AT LAN Driver",
+      "category": "Drivers",
+      "description": "Official LAN driver for the Intel I211-AT Ethernet controller used on your ASUS B450-F II.",
+      "url": "https://www.intel.com/content/www/us/en/download/15084/intel-ethernet-adapter-complete-driver-pack.html",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/intel.png",
+      "tags": ["lan", "ethernet", "intel", "drivers"],
+      "popular": 9
+    },
+
+    {
+      "name": "NVIDIA GeForce RTX 3070 Driver",
+      "category": "Drivers",
+      "description": "Latest Game Ready Driver for your MSI RTX 3070 Gaming Z Trio LHR.",
+      "url": "https://www.nvidia.com/Download/index.aspx",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/nvidia.png",
+      "tags": ["gpu", "rtx3070", "nvidia", "drivers"],
+      "popular": 10
+    },
+
+    {
+      "name": "MSI Dragon Center (Optional)",
+      "category": "Utilities",
+      "description": "RGB, fan control, and monitoring for MSI GPUs. Optional but useful for your Gaming Z Trio.",
+      "url": "https://www.msi.com/Landing/dragon-center-download",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/msi.png",
+      "tags": ["gpu", "msi", "rgb", "monitoring"],
+      "popular": 7
+    },
+
+    {
+      "name": "Samsung Magician",
+      "category": "Storage Tools",
+      "description": "SSD health, firmware updates, and performance optimization for your Samsung 980 NVMe.",
+      "url": "https://semiconductor.samsung.com/consumer-storage/support/tools/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/samsung.png",
+      "tags": ["ssd", "nvme", "samsung", "storage"],
+      "popular": 10
+    },
+
+    {
+      "name": "Kingston SSD Manager",
+      "category": "Storage Tools",
+      "description": "Health monitoring and firmware updates for your Kingston SA400 SATA SSD.",
+      "url": "https://www.kingston.com/en/support/technical/ssdmanager",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/kingston.png",
+      "tags": ["ssd", "sata", "kingston", "storage"],
+      "popular": 8
+    },
+
+    {
+      "name": "AMD Ryzen Master",
+      "category": "CPU Tools",
+      "description": "Monitoring, tuning, and temperature control for your AMD Ryzen 5 3600.",
+      "url": "https://www.amd.com/en/technologies/ryzen-master",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/ryzen.png",
+      "tags": ["cpu", "ryzen", "overclocking", "monitoring"],
+      "popular": 9
+    },
+
+    {
+      "name": "HWiNFO64",
+      "category": "Monitoring",
+      "description": "Deep hardware monitoring for CPU, GPU, motherboard sensors, NVMe, RAM, and more.",
+      "url": "https://www.hwinfo.com/download/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/hwinfo.png",
+      "tags": ["monitoring", "sensors", "hardware"],
+      "popular": 10
+    },
+
+    {
+      "name": "MSI Afterburner",
+      "category": "GPU Tools",
+      "description": "Fan curves, GPU monitoring, and overclocking for your RTX 3070.",
+      "url": "https://www.msi.com/Landing/afterburner/graphics-cards",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/afterburner.png",
+      "tags": ["gpu", "overclocking", "monitoring"],
+      "popular": 10
+    },
+
+    {
+      "name": "OpenRGB",
+      "category": "RGB Tools",
+      "description": "Universal RGB control for motherboard, RAM, GPU, and peripherals.",
+      "url": "https://openrgb.org/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/openrgb.png",
+      "tags": ["rgb", "lighting"],
+      "popular": 8
+    },
+
+    {
+      "name": "MemTest64",
+      "category": "Diagnostics",
+      "description": "RAM stability testing for your 32GB DDR4 Corsair kit.",
+      "url": "https://www.techpowerup.com/memtest64/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/ram.png",
+      "tags": ["ram", "testing", "stability"],
+      "popular": 9
+    },
+
+    {
+      "name": "CrystalDiskInfo",
+      "category": "Diagnostics",
+      "description": "SMART monitoring for both your Kingston SATA SSD and Samsung NVMe.",
+      "url": "https://crystalmark.info/en/software/crystaldiskinfo/",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/crystaldiskinfo.png",
+      "tags": ["ssd", "health", "monitoring"],
+      "popular": 10
+    },
+
+    {
+      "name": "Windows 11 Debloater (Chris Titus Tech)",
+      "category": "Windows Tools",
+      "description": "Safe, modular debloating and optimization for Windows 11.",
+      "url": "https://github.com/ChrisTitusTech/winutil",
+      "download": "",
+      "image": "https://mosberg.github.io/Fresh-Windows-Install/icons/windows.png",
+      "tags": ["windows", "tuning", "debloat"],
+      "popular": 9
+    }
+
+  ]
+}
