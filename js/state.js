@@ -1,13 +1,7 @@
-const State = {
-  favorites: new Set(JSON.parse(localStorage.getItem("favorites") || "[]")),
-  batch: new Set(),
-  filters: {
-    tags: new Set(),
-    categories: new Set(),
-    search: ""
-  },
+let RAW_DATA = null;          // merged JSON from all sources
+let SOFTWARE = {};            // { category: [items...] }
 
-  saveFavorites() {
-    localStorage.setItem("favorites", JSON.stringify([...this.favorites]));
-  }
-};
+let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+let selectedTags = new Set();
+let selectedCategories = new Set();
+let batchSelection = new Set();
