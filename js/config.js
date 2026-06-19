@@ -1,8 +1,9 @@
 const SOFTWARE_SOURCES = [
-  "data/software-core.json",
-  "data/software-dev.json",
-  "data/software-gaming.json",
-  "data/software-creative.json",
-  "data/software-security.json",
-  "data/software-open-source.json"
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-core.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-dev.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-gaming.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-creative.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-security.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-open-source.json",
+  "https://mosberg.github.io/Fresh-Windows-Install/data/software-network.json
 ];
