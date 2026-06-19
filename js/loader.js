@@ -1,13 +1,3 @@
-const SOFTWARE_SOURCES = [
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-core.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-dev.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-gaming.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-creative.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-security.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-open-source.json",
-  "https://mosberg.github.io/Fresh-Windows-Install/data/software-network.json"
-];
-
 async function loadAllSoftware() {
   const all = [];
 
@@ -18,7 +8,7 @@ async function loadAllSoftware() {
       if (Array.isArray(json.software)) {
         all.push(...json.software);
       }
-    } catch (e) {
+    } catch (err) {
       console.warn("Failed to load:", url);
     }
   }
@@ -26,7 +16,6 @@ async function loadAllSoftware() {
   // Deduplicate by name
   const map = new Map();
   all.forEach(item => map.set(item.name, item));
-  const merged = Array.from(map.values());
 
-  return merged;
+  return Array.from(map.values());
 }
