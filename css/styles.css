@@ -1,3 +1,4 @@
+/* Global */
 body {
   margin: 0;
   background: #0f172a;
@@ -5,6 +6,7 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+/* Header */
 header {
   padding: 1.5rem;
   text-align: center;
@@ -12,14 +14,40 @@ header {
   border-bottom: 1px solid #334155;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+header p {
+  margin: 0.25rem 0 0;
+  color: #94a3b8;
+}
+
+/* Category Wrapper */
 .category {
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   max-width: 1200px;
   background: #1e293b;
   border: 1px solid #334155;
   border-radius: 0.75rem;
+  padding: 1rem;
 }
 
+.category h2 {
+  margin: 0 0 1rem;
+  color: #f1f5f9;
+}
+
+/* Grid */
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+/* Software Card */
 .software-card {
   display: flex;
   gap: 0.75rem;
@@ -27,10 +55,30 @@ header {
   background: #0f172a;
   border: 1px solid #334155;
   border-radius: 0.75rem;
+  transition: 0.2s ease;
 }
 
+.software-card:hover {
+  border-color: #64748b;
+  background: #162033;
+}
+
+/* Icon */
 .software-icon img {
   width: 48px;
   height: 48px;
   object-fit: contain;
+}
+
+/* Text */
+.software-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #f8fafc;
+}
+
+.software-card p {
+  margin: 0.25rem 0 0;
+  color: #94a3b8;
+  font-size: 0.9rem;
 }
