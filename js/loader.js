@@ -5,11 +5,12 @@ async function loadAllSoftware() {
     try {
       const res = await fetch(url, { cache: "no-store" });
       const json = await res.json();
+
       if (Array.isArray(json.software)) {
         all.push(...json.software);
       }
     } catch (err) {
-      console.warn("Failed to load:", url);
+      console.warn("Failed to load:", url, err);
     }
   }
 
